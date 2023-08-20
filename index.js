@@ -1,7 +1,7 @@
 function onSubmit(){
     const text = document.getElementById('answer').value;
 
-    const msg = "【送信内容】\n" + text;
+    const msg = text + "が亜門サンライズを召喚！！";
     console.log(msg);
     sendText(msg);
 
